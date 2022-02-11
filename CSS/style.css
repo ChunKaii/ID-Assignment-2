@@ -1,6 +1,7 @@
 /* Styles for navigation bar */
 header {
-  background: #55d6aa;
+  margin: 0;
+  background: white;
 }
 .navbar {
   display: flex;
