@@ -30,6 +30,26 @@ header {
   padding-left: 1400px;
   padding-top: 40px;
 }
+/* Back to Top button */
+#ToTop {
+  justify-content: center;
+  position: fixed;
+  height: 30px;
+  width: 30px;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  opacity: 50%;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#ToTop:hover {
+  background-color: #555;
+}
 /* Styles for Home page */
 .row {
   background: orange;
