@@ -1,7 +1,7 @@
 body {
   margin: 0;
   border: 0;
-  background: black;
+  background: rgb(134, 134, 134);
 }
 /* Styles for navigation bar */
 header {
@@ -48,7 +48,11 @@ header {
 #ToTop:hover {
   background-color: #555;
 }
-
+/* Styles for Home page */
+.HomePhoto {
+  width: 100%;
+  height: 100%;
+}
 /* Styles for About page */
 .row {
   background: orange;
