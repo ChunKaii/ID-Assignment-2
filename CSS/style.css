@@ -30,7 +30,28 @@ header {
   padding-top: 10px;
 }
 /* Styles for Footer */
-
+.FootContainer {
+  background-color: white;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.FootCard {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.FootCard a {
+  width: 150px;
+  height: 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.FootCard a:hover {
+  color: rgb(68, 0, 255);
+}
 /* Back to Top button */
 #ToTop {
   justify-content: center;
