@@ -19,7 +19,6 @@ header {
   float: left;
   text-align: center;
   color: black;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -27,8 +26,8 @@ header {
   color: rgb(68, 0, 255);
 }
 .navbarcontainer {
-  padding-left: 100px;
-  padding-top: 40px;
+  padding-right: 200px;
+  padding-top: 10px;
 }
 /* Back to Top button */
 #ToTop {
@@ -46,11 +45,11 @@ header {
   border-radius: 10px;
   font-size: 18px;
 }
-
 #ToTop:hover {
   background-color: #555;
 }
-/* Styles for Home page */
+
+/* Styles for About page */
 .row {
   background: orange;
   display: flex;
