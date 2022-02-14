@@ -1,6 +1,8 @@
+// To Top Function
 function topFunction() {
   document.documentElement.scrollTop = 0;
 }
+// Slideshow in home screen
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -36,16 +38,16 @@ function showSlides(n) {
 
 //Adding in of GET information from restdb which holds the information on exisiting accounts
 var settings = {
-  "async": true,
-  "crossDomain": true,
-  "url": "https://customerfeedbacks-9383.restdb.io/rest/accountinfo",
-  "method": "GET",
-  "headers": {
+  async: true,
+  crossDomain: true,
+  url: "https://customerfeedbacks-9383.restdb.io/rest/accountinfo",
+  method: "GET",
+  headers: {
     "content-type": "application/json",
     "x-apikey": "deb720067e280f164408963ced0586bd63b3f",
-    "cache-control": "no-cache"
-  }
-}
+    "cache-control": "no-cache",
+  },
+};
 
 $.ajax(settings).done(function (response) {
   console.log(response);
