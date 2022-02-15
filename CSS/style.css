@@ -37,14 +37,13 @@ header {
 }
 
 /* Styles for Footer */
-footer {
-  background-color: rgb(224, 224, 224);
-}
 .FootContainer {
+  background-color: rgb(224, 224, 224);
   margin-top: 50px;
   display: flex;
   justify-content: center;
   flex-direction: row;
+  height: 170px;
 }
 .FootCardTitle {
   font-size: 20px;
