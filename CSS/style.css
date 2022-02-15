@@ -164,9 +164,30 @@ header {
   background-color: #555;
 }
 /* Styles for Home page */
-.HomePhoto {
-  width: 100%;
-  height: 100%;
+.HomeContainer {
+  justify-content: center;
+  display: flex;
+}
+.HomeImage {
+  max-width: 100%;
+  margin-bottom: 500px;
+  filter: brightness(50%);
+}
+.HomeText {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.HomeBanner {
+  text-align: center;
+  justify-content: center;
+  margin: 50px;
+  width: 500px;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 /* Styles for About page */
 .row {
