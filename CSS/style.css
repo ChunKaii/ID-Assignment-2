@@ -170,7 +170,7 @@ header {
 }
 /* Styles for About page */
 .row {
-  background: orange;
+  background: radial-gradient(grey, white);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -209,4 +209,35 @@ header {
 }
 .btn:hover {
   color: lightgrey;
+}
+/* Styles for contact form */
+.contact {
+  text-align: center;
+}
+form {
+  background: radial-gradient(grey, white);
+  text-align: center;
+}
+
+textarea {
+  width: 500px;
+  height: 300px;
+  font-size: 20px;
+  margin: auto;
+}
+
+.submitbutton {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding: 10px 30px;
+  background-color: black;
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
 }
