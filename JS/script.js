@@ -59,6 +59,7 @@ var settings = {
 $.ajax(settings).done(function (response) {
   console.log(response);
 });
+
 // Spin the wheel
 function Spin() {
   var x = 1024; //min value

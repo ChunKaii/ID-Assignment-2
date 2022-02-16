@@ -125,3 +125,7 @@ span b {
     right: -40px;
   }
 }
+.animationbox {
+  position: absolute;
+  margin-left: 440px;
+}
