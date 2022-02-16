@@ -229,7 +229,7 @@ body {
   display: block;
   margin: 0 auto;
 }
-.btn {
+.AboutHeader a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 20px;
@@ -242,7 +242,7 @@ body {
   text-decoration: none;
   width: 150px;
 }
-.btn:hover {
+.AboutHeader a:hover {
   color: #3988ff;
 }
 
