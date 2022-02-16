@@ -171,7 +171,11 @@ body {
   filter: brightness(50%);
 }
 .HomeText {
-  color: white;
+  background: linear-gradient(to right, #ccc 50%, #ff5858 50%, #cc2e5d);
+  background-size: 200%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
   font-size: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   position: absolute;
@@ -179,7 +183,8 @@ body {
   text-decoration: none;
 }
 .HomeBanner a:hover {
-  text-decoration: underline 3px;
+  color: white;
+  background-position: -100%;
 }
 .HomeBanner {
   position: relative;
