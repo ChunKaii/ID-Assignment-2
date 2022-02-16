@@ -198,8 +198,47 @@ body {
   display: flex;
 }
 /* Styles for About page */
-.AboutContainer {
+.row {
+  background: orange;
+  background: radial-gradient(grey, white);
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+.col-2 h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 80px;
+}
+.col-2 p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+.col-2 img {
+  display: block;
+  margin: 0 auto;
+}
+.btn {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  justify-content: center;
+  background: black;
+  color: white;
+  padding: 10px 30px;
+  margin: 30px 400px;
+  border-radius: 30px;
+}
+.btn:hover {
+  color: lightgrey;
 }
 
 /* Styles for contact form */
