@@ -38,6 +38,7 @@
         type="text"
         placeholder="Name"
         name="Name"
+        id="name"
         style="font-size: 20px"
         size="30"
         required
@@ -47,6 +48,7 @@
         type="email"
         placeholder="Email"
         name="email"
+        id="email"
         style="font-size: 20px"
         size="40"
         required
@@ -54,13 +56,19 @@
       <h3 id="h3">Message</h3>
       <textarea
         name="message"
+        id="msg"
         rows="5"
         cols="20"
         placeholder="Enter message..."
         required
       ></textarea
       ><br />
-      <a class="btn">Submit &#8594;</a>
+      <input
+            type="submit"
+            value="Send"
+            class="btn btn-primary"
+            id="submit-contact"
+          />
     </form>
     <!-- Back To Top Button -->
     <button onclick="topFunction()" id="ToTop">^</button>
