@@ -11,6 +11,7 @@ body {
   overflow: hidden;
   background-color: white;
   color: black;
+  border: solid rgb(226, 226, 226) 1px;
 }
 .navbar a {
   font-family: Arial, Helvetica, sans-serif;
@@ -34,11 +35,10 @@ body {
 /* Styles for Footer */
 .FootContainer {
   background-color: white;
-  margin-top: 50px;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  height: 170px;
+  border-top: solid rgb(199, 199, 199) 1px;
 }
 .FootCardTitle {
   font-size: 20px;
@@ -162,7 +162,7 @@ body {
 .HomeContainer {
   position: relative;
   text-align: center;
-  color: white;
+  background-color: white;
   justify-content: center;
   display: flex;
 }
@@ -171,7 +171,12 @@ body {
   filter: brightness(50%);
 }
 .HomeText {
-  background: linear-gradient(to right, #ccc 50%, #ff5858 50%, #cc2e5d);
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    #60a0ff 50%,
+    #3988ff
+  );
   background-size: 200%;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -198,30 +203,29 @@ body {
   display: flex;
 }
 /* Styles for About page */
-.row {
-  background: orange;
-  background: radial-gradient(grey, white);
+.AboutContainer {
+  background: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.col-2 {
+.AboutHeader {
   flex-basis: 50%;
   min-width: 300px;
 }
-.col-2 h1 {
+.AboutHeader h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  font-size: 80px;
+  text-align: left;
+  font-size: 35px;
 }
-.col-2 p {
+.AboutHeader p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-  font-size: 25px;
+  text-align: left;
+  font-size: 18px;
 }
-.col-2 img {
+.AboutHeader img {
   display: block;
   margin: 0 auto;
 }
@@ -234,11 +238,12 @@ body {
   background: black;
   color: white;
   padding: 10px 30px;
-  margin: 30px 400px;
   border-radius: 30px;
+  text-decoration: none;
+  width: 150px;
 }
 .btn:hover {
-  color: lightgrey;
+  color: #3988ff;
 }
 
 /* Styles for contact form */
