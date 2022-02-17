@@ -10,6 +10,9 @@ body {
   background-color: white;
   color: black;
 }
+.navbar a img {
+  width: 125px;
+}
 .navbar a {
   font-family: Arial, Helvetica, sans-serif;
   padding: 10px;
