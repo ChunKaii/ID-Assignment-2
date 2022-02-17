@@ -206,6 +206,7 @@ body {
   border: solid rgb(226, 226, 226) 1px;
 }
 .AboutHeader {
+  padding: 100px;
   flex-basis: 50%;
   min-width: 300px;
 }
