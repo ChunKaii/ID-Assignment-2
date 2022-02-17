@@ -220,9 +220,10 @@ body {
   text-align: left;
   font-size: 18px;
 }
-.AboutHeader img {
+.AboutContainer img {
   display: block;
   margin: 0 auto;
+  width: 400px;
 }
 .AboutHeader a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
