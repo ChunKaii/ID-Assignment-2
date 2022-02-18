@@ -43,7 +43,8 @@ function showSlides(n) {
   timer = setTimeout(showSlides, 5000);
 }
 
-$("#submit-contact").on("click", function () {
+$("#add-update-msg").hide();
+$("#contact-submit").on("click", function () {
   let custName = $("#name").val();
   let custEmail = $("#email").val();
   let custMsg = $("#msg").val();
