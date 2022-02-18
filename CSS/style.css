@@ -244,35 +244,16 @@ body {
 }
 
 /* Styles for contact form */
-.contact {
-  text-align: center;
+.ContactForm {
+  padding-left: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-form {
-  background: radial-gradient(grey, white);
-  text-align: center;
-}
-textarea {
-  width: 500px;
-  height: 300px;
+.ContactForm p {
   font-size: 20px;
-  margin: auto;
 }
-.submitbutton {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-  padding: 10px 30px;
-  background-color: black;
-  color: rgb(53, 49, 49);
-  border: none;
-  outline: none;
-  font-size: 20px;
-  cursor: pointer;
-}
-
 /* Styles for Product page */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap");
 
