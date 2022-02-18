@@ -129,3 +129,18 @@ span b {
   position: absolute;
   margin-left: 440px;
 }
+
+/* Media Queries for Spin the wheel */
+@media only screen and (max-width: 768px) {
+  .mainbox {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 100px 0px 100px -100px;
+  }
+  .animationbox {
+    position: absolute;
+    padding: auto;
+    margin: auto;
+  }
+}
