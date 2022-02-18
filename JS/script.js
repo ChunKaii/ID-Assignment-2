@@ -42,6 +42,54 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
   timer = setTimeout(showSlides, 5000);
 }
+
+$("#submit-contact").on("click", function () {
+  let custName = $("#name").val();
+  let custEmail = $("#email").val();
+  let custMsg = $("#msg").val();
+
+  let feedbackData = {
+    name: custName,
+    email: custEmail,
+    message: custMsg,
+  };
+
+  var settings = {
+    async: true,
+    crossDomain: true,
+    url: "https://customerfeedbacks-9383.restdb.io/rest/feedback",
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      "x-apikey": "deb720067e280f164408963ced0586bd63b3f",
+      "cache-control": "no-cache",
+    },
+    processData: false,
+    data: JSON.stringify(feedbackData),
+  };
+
+  $.ajax(settings).done(function (response) {
+    console.log(response);
+  });
+});
+
+//Adding in of GET information from restdb which holds the information on exisiting accounts
+var settings = {
+  async: true,
+  crossDomain: true,
+  url: "https://customerfeedbacks-9383.restdb.io/rest/accountinfo",
+  method: "GET",
+  headers: {
+    "content-type": "application/json",
+    "x-apikey": "deb720067e280f164408963ced0586bd63b3f",
+    "cache-control": "no-cache",
+  },
+};
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+
 // Spin the wheel
 function Spin() {
   var x = 1024; //min value
