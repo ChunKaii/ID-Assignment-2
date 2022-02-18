@@ -49,14 +49,20 @@ body {
   display: flex;
   justify-content: left;
   flex-direction: column;
+  margin: 20px;
+  width: auto;
 }
 .FootCard a {
-  width: 150px;
   height: 30px;
   color: black;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+}
+.FootCard a img {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
 }
 .FootCard a:hover {
   color: rgb(68, 0, 255);
