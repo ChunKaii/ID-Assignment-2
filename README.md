@@ -4,6 +4,11 @@ Here at Unoqlo, we prioritise customers' satisfaction. Hence in our E-commerce c
 
 # Design Process
 
+- We wanted users to have the best experience on our website with its easy navigation and simplicity
+- We used fonts that are easy to read and made sentences sweet and short
+- We made the homescreen display some of the banners and products using a carousel that may interest majority of the users
+- We wanted to get users to have a fun time on the website so a spin the wheel game was added which gives users the chance at being able to win a voucher to be used on their next purchase
+
 # Features
 
 ## Existing Features
@@ -29,14 +34,21 @@ Here at Unoqlo, we prioritise customers' satisfaction. Hence in our E-commerce c
 # Testing
 
 - Navigation Bar
+  - We needed to test that the navigation bar would bring us to the right places
 - Enquiry Form
+  - We needed to see whether the forms submitted would go into the database
 - Spin the Wheel
+  - We had to test that the spin the wheel game was working
 - Footer
+  - We needed to test to see if the footer links worked properly
 - Adding of products into cart
+  - We needed to make sure the correct products were being added into the cart
 
 # Credits
 
 - [W3 schools](https://www.w3schools.com/)
+- [Replit](https://replit.com/)
+- [RestDB Database API](https://restdb.io/)
 
 # GitHub
 
