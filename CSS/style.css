@@ -244,14 +244,19 @@ body {
 }
 
 /* Styles for contact form */
-.ContactForm {
-  padding-left: 400px;
+.ContactContainer {
+  text-align: center;
+  margin-left: 400px;
+  width: 1000px;
   height: 200px;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.ContactForm p {
+.ContactContainer h1 {
+  font-size: 30px;
+}
+.ContactContainer p {
   font-size: 20px;
 }
 /* Styles for Product page */

@@ -29,7 +29,7 @@
         </section>
       </nav>
     </header>
-    <!-- Contact Form -->
+    <!-- Main Content -->
     <div class="container">
       <h1>Enquiry Form</h1>
       <div id="add-update-msg">
@@ -41,35 +41,57 @@
         <form id="add-contact-form">
           <div class="form-group">
             <label for="contact-name">Name</label>
-            <input type="text" id="name" class="form-control" required />
+            <input
+              type="text"
+              id="contact-name"
+              class="form-control"
+              required
+            />
           </div>
           <div class="form-group">
             <label for="contact-email">Email</label>
-            <input type="email" id="mail" class="form-control" required />
+            <input
+              type="email"
+              id="contact-email"
+              class="form-control"
+              required
+            />
             <small id="contact-email-help" class="form-text text-muted"
               >We'll never share your email with anyone else.</small
             >
           </div>
           <div class="form-group">
-            <label for="msg">Message</label>
-            <textarea id="msg" class="form-control" required> </textarea>
+            <label for="contact-msg">Message</label>
+            <textarea id="contact-msg" class="form-control" required>
+            </textarea>
           </div>
+
           <input
             type="submit"
             value="Send"
             class="btn btn-primary"
             id="contact-submit"
-            onclick=""
           />
         </form>
       </div>
     </div>
-    <section class="ContactForm">
+    <!-- end add container -->
+
+    <div class="container mt-5">
+      <h2>Forms Submitted (<span id="total-contacts"></span>)</h2>
+      <table class="table" id="contact-list">
+        <thead>
+          <th>Name</th>
+          <th>Message</th>
+        </thead>
+        <!-- This will be filled with information later -->
+        <tbody></tbody>
+      </table>
+    </div>
+    <section class="ContactContainer">
       <h1>Customer Service Hotline</h1>
       <p>+65 98765432</p>
     </section>
-    <!-- Back To Top Button -->
-    <button onclick="topFunction()" id="ToTop">^</button>
     <!-- Footer -->
     <footer class="FootContainer">
       <section class="FootCard">
@@ -81,6 +103,7 @@
         <a href="Contact.html">Customer Service</a>
       </section>
     </footer>
+    <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
@@ -92,6 +115,6 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
-    <script src="JS/script.js"></script>
+    <script src="JS/contact.js"></script>
   </body>
 </html>
