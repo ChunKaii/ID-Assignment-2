@@ -191,8 +191,8 @@ function addItemToCart(name, price, imageSrc) {
   document.addEventListener("DOMContentLoaded", function(event) {
     var cartRow = document.createElement('div');
     cartRow.classList.add('cart-row');
-    var cartItems = document.getElementsByClassName('cart-items')[0];
-    var cartItemNames = document.getElementsByClassName('cart-item-title');
+    var cartItems = document.getElementsByClassName('product')[0];
+    var cartItemNames = document.getElementsByClassName('product-name');
     for (var i = 0; i < cartItemNames.length; i++) {
       if (cartItemNames[i],innerText == title) {
         alert("This item is already added to the cart");
