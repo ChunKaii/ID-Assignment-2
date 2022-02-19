@@ -112,13 +112,6 @@ function reDirectToCart() {
   document.getElementById('cart-area').scrollIntoView();;
 }
 
-<<<<<<< HEAD
-function reDirectToTransaction() {
-  window.location.href = "LoadTransaction.html";
-}
-
-=======
->>>>>>> e98592d2dccbfd5a1d620128308886fa78f547f4
 if (document.readyState == 'loading') {
   document.addEventListener('DOMContentLoaded', ready);
 }
