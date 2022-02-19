@@ -112,7 +112,6 @@ function reDirectToCart() {
   document.getElementById('cart-area').scrollIntoView();;
 }
 
-
 if (document.readyState == 'loading') {
   document.addEventListener('DOMContentLoaded', ready);
 }
