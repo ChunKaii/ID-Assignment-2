@@ -112,6 +112,9 @@ function reDirectToCart() {
   document.getElementById('cart-area').scrollIntoView();;
 }
 
+function reDirectToTransaction() {
+  window.location.href = "LoadTransaction.html";
+}
 
 if (document.readyState == 'loading') {
   document.addEventListener('DOMContentLoaded', ready);
@@ -149,7 +152,7 @@ function ready() {
 }
 
 function purchaseClicked() {
-  alert("thank you for purchasing!");
+  alert("Click ok to confirm purchase.");
   var cartItems = document.getElementsByClassName('cart-items')[0];
   while (cartItems.hasChildNodes()) {
     cartItems.removeChild(cartItems.firstChild);

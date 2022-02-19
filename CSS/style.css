@@ -653,6 +653,15 @@ img {
   background-color: #2D9CDB;
 }
 
+.loading-icon{
+  display: flex;
+  justify-content: center;
+  top: 150px;
+}
+.loading-text{
+  text-align: center;
+}
+
 /* Media Queries */
 /* Media Queries for Navigation bar */
 @media only screen and (max-width: 768px) {
