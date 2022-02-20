@@ -40,24 +40,33 @@ Here at Unoqlo, we prioritise customers' satisfaction. Hence in our E-commerce c
 # Testing
 
 1. Navigation Bar
-  * Attempt to click on the navigation options in the top right to navigate to the relevant pages
+
+- Attempt to click on the navigation options in the top right to navigate to the relevant pages
+
 2. Enquiry Form
-  * Go to the Help page located on the top right of the page where the navigation bar is
-  * Try to submit an empty form and verify that there is a message about required fields appearing
-  * Try to submit the form with invalid email and verify that an error message appears
-  * Try to submit the form with valid inputs 
-  * Check that your name and message is displayed in the forms submitted portion beneath after awhile
+
+- Go to the Help page located on the top right of the page where the navigation bar is
+- Try to submit an empty form and verify that there is a message about required fields appearing
+- Try to submit the form with invalid email and verify that an error message appears
+- Try to submit the form with valid inputs
+- Check that your name and message is displayed in the forms submitted portion beneath after awhile
+
 3. Spin the Wheel
-  * Go to the Spin page located on navigation bar at the top right
-  * Attempt to click spin and see that the wheel spins 
+
+- Go to the Spin page located on navigation bar at the top right
+- Attempt to click spin and see that the wheel spins
+
 4. Footer
-  * At the bottom of every page is a footer, check that the hyperlinks sends users to the relevant pages
+
+- At the bottom of every page is a footer, check that the hyperlinks sends users to the relevant pages
+
 5. Shopping Cart
-  * Go to the Cart page located on navigation bar at the top right
-  * Attempt to click the red remove button to check that the remove button works
-  * Click purchase and an alert message appears
-  * You will be redirected to a loading page where a loading animation appears
-  * After a few seconds you will be directed to a page to thank you for choosing Unoqlo
+
+- Go to the Cart page located on navigation bar at the top right
+- Attempt to click the red remove button to check that the remove button works
+- Click purchase and an alert message appears
+- You will be redirected to a loading page where a loading animation appears
+- After a few seconds you will be directed to a page to thank you for choosing Unoqlo
 
 # Credits
 
@@ -68,3 +77,7 @@ Here at Unoqlo, we prioritise customers' satisfaction. Hence in our E-commerce c
 # GitHub
 
 [Github](https://chunkaii.github.io/ID-Assignment-2/index.html)
+
+# Pitch
+
+[Google Drive](https://drive.google.com/file/d/1I6Fv088fYoCRWkXJ02kHS4Kt9MPIl91l/view?usp=sharing)
