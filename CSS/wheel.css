@@ -140,7 +140,7 @@ span b {
   }
   .animationbox {
     position: absolute;
-    padding: auto;
+    padding: 0;
     margin: auto;
   }
 }
