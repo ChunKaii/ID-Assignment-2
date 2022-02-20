@@ -16,33 +16,48 @@ Here at Unoqlo, we prioritise customers' satisfaction. Hence in our E-commerce c
 - Feature 1 - Customers can spin a wheel to get discounts or promotions
 - Feature 2 - A navigation page is provided to navigate along the different pages
 - Feature 3 - A back to the top button
-- Feature 4 - A customer service/feddback page for customers to review their satisfaction for the website
+- Feature 4 - A customer service/feedback page for customers to review their satisfaction for the website
 - Feature 5 - Product page which shows discounted and non-discounted items
+- Feature 6 - Automatic slideshow in index.html page
+- Feature 7 - Interactivity when hovering over products
+- Feature 8 - Loading page containing animation appears when purchase button is clicked which sends users to a thank you page
 
 ## Features yet to be implemented
 
 - Utilizing Vouchers from the wheel
+- Making the shopping cart work
+- Adding a page for customers to input their information for transaction
 
 # Technologies Used
 
 - JQuery
 - HTML
 - CSS
+- JavaScript
 - RestDB API
 - Lottie
 
 # Testing
 
-- Navigation Bar
-  - We needed to test that the navigation bar would bring us to the right places
-- Enquiry Form
-  - We needed to see whether the forms submitted would go into the database
-- Spin the Wheel
-  - We had to test that the spin the wheel game was working
-- Footer
-  - We needed to test to see if the footer links worked properly
-- Adding of products into cart
-  - We needed to make sure the correct products were being added into the cart
+1. Navigation Bar
+  * Attempt to click on the navigation options in the top right to navigate to the relevant pages
+2. Enquiry Form
+  * Go to the Help page located on the top right of the page where the navigation bar is
+  * Try to submit an empty form and verify that there is a message about required fields appearing
+  * Try to submit the form with invalid email and verify that an error message appears
+  * Try to submit the form with valid inputs 
+  * Check that your name and message is displayed in the forms submitted portion beneath after awhile
+3. Spin the Wheel
+  * Go to the Spin page located on navigation bar at the top right
+  * Attempt to click spin and see that the wheel spins 
+4. Footer
+  * At the bottom of every page is a footer, check that the hyperlinks sends users to the relevant pages
+5. Shopping Cart
+  * Go to the Cart page located on navigation bar at the top right
+  * Attempt to click the red remove button to check that the remove button works
+  * Click purchase and an alert message appears
+  * You will be redirected to a loading page where a loading animation appears
+  * After a few seconds you will be directed to a page to thank you for choosing Unoqlo
 
 # Credits
 
