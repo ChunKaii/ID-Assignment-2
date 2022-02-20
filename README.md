@@ -52,4 +52,4 @@ Here at Unoqlo, we prioritise customers' satisfaction. Hence in our E-commerce c
 
 # GitHub
 
-[Github Repository](https://github.com/ChunKaii/ID-Assignment-2)
+[Github](https://chunkaii.github.io/ID-Assignment-2/index.html)
